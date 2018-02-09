@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2017, 3:06:27 PM
+    Author     : boffin
+*/
+.map-view {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  background-color: transparent !important;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+  background-color: transparent !important;
+}
+
+.custom .leaflet-popup-content-wrapper {
+  background-color: black;
+  color: #234c5e;
+}
+
+.pubcity_customOptions .leaflet-popup-content-wrapper {
+  background-color: black;
+  color: white;
+}
+
+.customfont {
+  font-family: Palatino;
+  color: yellow;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  padding-top: 10px;
+  background-color: red;
+}
+
+.clearbg {
+  background-color: transparent !important;
+}
+
+div {
+  background-color: transparent;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  padding-right: 0;
+  background-color: grey;
+  font-family: Courier;
+  color: gold;
+  font-size: 20px;
+}
+
+#image-container {
+  /*background-image:  url(images/sloe.JPG);*/
+  background-size: cover;
+  /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html, body, img {
+    width: 100%;
+    height: 297mm;
+  }
+
+  /* ... the rest of the rules ... */
+}
